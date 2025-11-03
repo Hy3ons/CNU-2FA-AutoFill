@@ -1,6 +1,6 @@
 import { defineManifest } from '@crxjs/vite-plugin'
 import packageData from '../package.json'
-import {PUBLIC_KEY} from './constant/constant'
+import { PUBLIC_KEY } from './manifest.config'
 
 //@ts-ignore
 const isDev = process.env.NODE_ENV == 'development'

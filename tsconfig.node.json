@@ -6,5 +6,5 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["vite.config.ts", "src/manifest.ts", "src/constant/constant.ts"]
+  "include": ["vite.config.ts", "src/manifest.ts", "src/manifest.config.ts"]
 }

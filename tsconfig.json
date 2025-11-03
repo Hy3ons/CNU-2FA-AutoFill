@@ -18,6 +18,6 @@
     "types": ["chrome", "vite/client"]
   },
   "include": ["src"],
-  "exclude": ["src/manifest.ts"],
+  "exclude": ["src/manifest.ts", "src/manifest.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }],
 }

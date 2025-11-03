@@ -24,4 +24,8 @@ secrets.*.js
 
 build.crx
 build.pem
+
+
+# secret KEYS
 constant.ts
+manifest.config.ts
