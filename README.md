@@ -72,9 +72,11 @@
 ### 상수(설정) 파일 안내: `src/constant/constant.ts`
 - `SENDER_EMAIL`: OTP 메일 발신자 이메일. 최신 메일에서 OTP를 추출할 때 필터에 사용됩니다.
 - `CLIENT_ID`: Microsoft Entra 앱 등록의 클라이언트 ID(공개값). 정책 위반 사용 금지.
-- `PUBLIC_KEY`: 확장 공개 키. 확장 ID 고정용. 개인 키는 절대 커밋 금지.
 - `MS_TENANT`: 테넌트 식별자. 기본 `common`, 조직 전용이면 테넌트 ID로 교체.
 - `MS_SCOPES`: OAuth 범위 배열. 최소 권한 원칙으로 `offline_access`, `Mail.Read`를 포함.
+
+### 상수(설정)2 : `src/manifest.config.ts`
+- `PUBLIC_KEY`: 확장 공개 키. 확장 ID 고정용. 개인 키는 절대 커밋 금지.
 
 ### 보안 주의 (요약)
 - RT는 로컬 저장됩니다. 동일 프로필의 악성 확장/OS 침해에 주의
