@@ -2,6 +2,14 @@
 
 이 확장 프로그램은 충남대학교 포털(o.cnu.ac.kr)의 2차 인증(OTP) 입력을 자동화합니다. Microsoft 계정을 연결하면 최신 메일의 OTP 코드를 확인하여 로그인 필드에 자동 입력합니다.
 
+<img width="301" height="249" alt="image" src="https://github.com/user-attachments/assets/9ae7fcfb-e8c6-49a1-965c-52a93563f015" />
+
+해당 이미지는 익스텐션의 popup 창입니다. 위에서 Microsoft 계정에 OAuth로 인증할 수 있습니다.
+
+<img width="424" height="366" alt="image" src="https://github.com/user-attachments/assets/0125fc03-6c6d-400b-8aaf-182bb912c1ba" />
+
+메일을 읽어, OTP를 파싱하여, 자동으로 인증합니다. (보안 약관 위반의 우려가 있습니다)
+
 ## 배포 정책 안내
 
 - Chrome Web Store 정책상 외부 배포가 어려워 현재는 “코드 공개”만 진행합니다.
